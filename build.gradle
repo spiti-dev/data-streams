@@ -49,7 +49,7 @@ publishing {
             pom {
                 name = 'Data Streams'
                 description = 'A utility to read and write data from and to kafka'
-                url = 'https://github.com/spiti-dev/data-reader'
+                url = 'https://github.com/spiti-dev/data-streams'
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
@@ -67,9 +67,9 @@ publishing {
                     }
                 }
                 scm {
-                    url = 'https://github.com/spiti-dev/data-reader'
-                    connection = 'scm:git:git://github.com/spiti-dev/data-reader.git'
-                    developerConnection = 'scm:git:ssh://git@github.com:spiti-dev/data-reader.git'
+                    url = 'https://github.com/spiti-dev/data-streams'
+                    connection = 'scm:git:git://github.com/spiti-dev/data-streams.git'
+                    developerConnection = 'scm:git:ssh://github.com/spiti-dev/data-streams.git'
                 }
             }
         }
